@@ -8,17 +8,18 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <title>Navbar Mobile Dropdown</title>
 </head>
 
-<body> 
+<body>
 
   <header class="fixed w-full z-50">
     <nav class="flex items-center justify-between px-6 py-0">
       <div class="flex items-center gap-6 ml-6">
-       <img src="img/logo.png" alt="Logo" class="w-20 h-auto">
+        <img src="img/logo.png" alt="Logo" class="w-20 h-auto">
       </div>
 
       <!-- desktop menu -->
@@ -32,18 +33,23 @@
       <div class="hidden md:flex items-center gap-6">
         <div class="flex items-center gap-2 text-[15px] text-black">
           <!-- phone svg -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372a1.125 1.125 0 00-.852-1.09l-4.423-1.106a1.125 1.125 0 00-1.173.417l-.97 1.293a.75.75 0 01-1.21.038 12.035 12.035 0 01-2.34-3.69.75.75 0 01.298-.88l1.193-.795a1.125 1.125 0 00.45-1.153L9.31 3.143A1.125 1.125 0 008.228 2.25H6.75A2.25 2.25 0 004.5 4.5v2.25z" />
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372a1.125 1.125 0 00-.852-1.09l-4.423-1.106a1.125 1.125 0 00-1.173.417l-.97 1.293a.75.75 0 01-1.21.038 12.035 12.035 0 01-2.34-3.69.75.75 0 01.298-.88l1.193-.795a1.125 1.125 0 00.45-1.153L9.31 3.143A1.125 1.125 0 008.228 2.25H6.75A2.25 2.25 0 004.5 4.5v2.25z" />
           </svg>
           <span>0664930591</span>
         </div>
-        <a href="#Contact" class="bg-[#e43c5c] text-white py-2 px-6 rounded-full text-[15px] font-medium hover:opacity-90 transition">Devis gratuit</a>
+        <a href="#Contact"
+          class="bg-[#e43c5c] text-white py-2 px-6 rounded-full text-[15px] font-medium hover:opacity-90 transition">Devis
+          gratuit</a>
       </div>
 
       <!-- mobile menu button -->
       <button class="md:hidden" onclick="toggleMenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+          stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
     </nav>
@@ -62,634 +68,702 @@
       </nav>
       <hr class="my-4">
       <div class="flex items-center gap-2 text-black text-[15px] mb-4">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372a1.125 1.125 0 00-.852-1.09l-4.423-1.106a1.125 1.125 0 00-1.173.417l-.97 1.293a.75.75 0 01-1.21.038 12.035 12.035 0 01-2.34-3.69.75.75 0 01.298-.88l1.193-.795a1.125 1.125 0 00.45-1.153L9.31 3.143A1.125 1.125 0 008.228 2.25H6.75A2.25 2.25 0 004.5 4.5v2.25z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372a1.125 1.125 0 00-.852-1.09l-4.423-1.106a1.125 1.125 0 00-1.173.417l-.97 1.293a.75.75 0 01-1.21.038 12.035 12.035 0 01-2.34-3.69.75.75 0 01.298-.88l1.193-.795a1.125 1.125 0 00.45-1.153L9.31 3.143A1.125 1.125 0 008.228 2.25H6.75A2.25 2.25 0 004.5 4.5v2.25z" />
         </svg>
         <span>+33664930591</span>
       </div>
       <a href="#Contact" class="bg-[#e43c5c] text-white py-3 rounded-full text-center font-medium">Devis gratuit</a>
     </div>
   </header>
- 
- <!-- Hero -->
-<section class="relative hero-bg px-2 pb-12" style="background-image: url('image/cuvar.jpg'); background-size: cover; background-position: center;">
-  
-  <!-- ✅ طبقة التدرج البنفسجي/الأزرق مع ضباب -->
-  <div class="absolute inset-0 bg-gradient-to-t from-[#003f5f]/80 via-[#003f5f]/40 to-transparent backdrop-blur-[2px]"></div>
 
-  <div class="relative max-w-7xl mx-auto px-2 py-16 md:py-20 text-white">
-    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 ">
-      <div class="md:w-7/12">
-        <div class="flex items-center gap-3 mb-6 ">
-          <div class="flex items-center">
-            <span class="fa fa-star checked mx-1"></span>
-            <span class="fa fa-star checked mx-1"></span>
-            <span class="fa fa-star checked mx-1"></span>
-            <span class="fa fa-star checked mx-1"></span>
-            <span class="fa fa-star checked mx-1"></span>
-          </div>
-          <p class="font-bold text-white "> <p class="mr-4">  4.9/5 sur Google  </p> |   <p class="ml-4">500+ projets réalisés</p> </p>
-        </div>
+  <!-- Hero -->
+  <section class="relative hero-bg px-2 pb-12"
+    style="background-image: url('image/cuvar.jpg'); background-size: cover; background-position: center;">
 
-        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">Des professionnels <br> 
-        <span class="block md:inline">à  votre  <span style="background-image: linear-gradient(to right, #fac519, #ffbe33, #ff7e29); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">service </span></span></h1>
-
-        <p class="mt-6 text-lg lead max-w-xl">Transformez votre espace avec nos services de peinture professionnels. De l'intérieur à l'extérieur, nous donnons vie à vos murs avec passion et expertise.</p>
-
-        <div class="mt-8 flex flex-wrap gap-4 items-center">
-          <a href="#contact" class="ok text-white py-3 px-6 rounded-full text-[20px] font-medium inline-flex items-center gap-3 font-bold ">Devis gratuit <span style="font-size:110%;">→</span></a>
-
-          <div class="bg-white/10 rounded-full px-4 py-2 text-white ml-2">
-            <span class="font-semibold">Demandez un devis</span>
-          </div>
-        </div>
-
-        <div class="mt-10 pl-5 flex gap-8 flex justify-around  text-white">
-          <div>
-            <h3 class="text-3xl font-bold">25+</h3>
-            <p class="text-sm text-gray-200">Années d'expérience</p>
-          </div>
-          <div>
-            <h3 class="text-3xl font-bold">500+</h3>
-            <p class="text-sm text-gray-200">Projets réalisés</p>
-          </div> 
-          <div>
-            <h3 class="text-3xl font-bold">100%</h3>
-            <p class="text-sm text-gray-200">Satisfaction client</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="md:w-4/12 hidden md:flex items-center justify-end"></div>
+    <!-- ✅ طبقة التدرج البنفسجي/الأزرق مع ضباب -->
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-[#003f5f]/80 via-[#003f5f]/40 to-transparent backdrop-blur-[2px]">
     </div>
-  </div>
-</section>
 
+    <div class="relative max-w-7xl mx-auto px-2 py-16 md:py-20 text-white">
+      <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 ">
+        <div class="md:w-7/12">
+          <div class="flex items-center gap-3 mb-6 ">
+            <div class="flex items-center">
+              <span class="fa fa-star checked mx-1"></span>
+              <span class="fa fa-star checked mx-1"></span>
+              <span class="fa fa-star checked mx-1"></span>
+              <span class="fa fa-star checked mx-1"></span>
+              <span class="fa fa-star checked mx-1"></span>
+            </div>
+            <p class="font-bold text-white ">
+            <p class="mr-4"> 4.9/5 sur Google </p> | <p class="ml-4">500+ projets réalisés</p>
+            </p>
+          </div>
 
+          <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">Des professionnels <br>
+            <span class="block md:inline">à votre <span
+                style="background-image: linear-gradient(to right, #fac519, #ffbe33, #ff7e29); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">service
+              </span></span>
+          </h1>
 
-     <div style="background-color: #f5f7fa; padding: 60px 0;">
- 
- <section class="py-12">
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
-        <div>
-          <div class="icon-box mx-auto mb-4">
-            <!-- shield -->
-            <svg xmlns="http://www.w3.org/2000/svg"  class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16" fill="currentColor">
-              <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"></path>
-            </svg>
+          <p class="mt-6 text-lg lead max-w-xl">Transformez votre espace avec nos services de peinture professionnels.
+            De l'intérieur à l'extérieur, nous donnons vie à vos murs avec passion et expertise.</p>
+
+          <div class="mt-8 flex flex-wrap gap-4 items-center">
+            <a href="#contact"
+              class="ok text-white py-3 px-6 rounded-full text-[20px] font-medium inline-flex items-center gap-3 font-bold ">Devis
+              gratuit <span style="font-size:110%;">→</span></a>
+
+            <div class="bg-white/10 rounded-full px-4 py-2 text-white ml-2">
+              <span class="font-semibold">Demandez un devis</span>
+            </div>
           </div>
-          <h4 class="font-semibold">Assurance décennale</h4>
-          <p class="text-sm text-gray-500 mt-2">Couverture complète</p>
-        </div>
-        <div>
-          <div class="icon-box mx-auto mb-4">
-            <!-- badge -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9" viewBox="0 0 64 64" fill="none">
-              <circle cx="32" cy="18" r="12" stroke="#2563EB" stroke-width="3"></circle>
-              <path d="M24 30 L40 30 L40 44 L32 40 L24 44 Z" stroke="#2563EB" stroke-width="3" fill="none"></path>
-            </svg>
+
+          <div class="mt-10 pl-5 flex gap-8 flex justify-around  text-white">
+            <div>
+              <h3 class="text-3xl font-bold">25+</h3>
+              <p class="text-sm text-gray-200">Années d'expérience</p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">500+</h3>
+              <p class="text-sm text-gray-200">Projets réalisés</p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold">100%</h3>
+              <p class="text-sm text-gray-200">Satisfaction client</p>
+            </div>
           </div>
-          <h4 class="font-semibold">Certifié RGE</h4>
-          <p class="text-sm text-gray-500 mt-2">Qualification reconnue</p>
         </div>
-        <div>
-          <div class="icon-box mx-auto mb-4">
-            <!-- people -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16" fill="currentColor">
-                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/></path>
-            </svg>
-          </div>
-          <h4 class="font-semibold">Équipe experte</h4>
-          <p class="text-sm text-gray-500 mt-2">Peintres qualifiés</p>
-        </div>
-        <div>
-          <div class="icon-box mx-auto mb-4">
-            <!-- clock -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16" fill="currentColor">
-                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-            </svg>
-          </div>
-          <h4 class="font-semibold">Respect des délais</h4>
-          <p class="text-sm text-gray-500 mt-2">Ponctualité garantie</p>
-        </div>
+
+        <div class="md:w-4/12 hidden md:flex items-center justify-end"></div>
       </div>
     </div>
   </section>
- 
-</div>
 
 
-<!-- قسم النص أسفل الأيقونات -->
- <main id="services" class="max-w-7xl mx-auto px-6 py-12" >
+
+  <div style="background-color: #f5f7fa; padding: 60px 0;">
+
+    <section class="py-12">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div>
+            <div class="icon-box mx-auto mb-4">
+              <!-- shield -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16"
+                fill="currentColor">
+                <path
+                  d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56">
+                </path>
+              </svg>
+            </div>
+            <h4 class="font-semibold">Assurance décennale</h4>
+            <p class="text-sm text-gray-500 mt-2">Couverture complète</p>
+          </div>
+          <div>
+            <div class="icon-box mx-auto mb-4">
+              <!-- badge -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="18" r="12" stroke="#2563EB" stroke-width="3"></circle>
+                <path d="M24 30 L40 30 L40 44 L32 40 L24 44 Z" stroke="#2563EB" stroke-width="3" fill="none"></path>
+              </svg>
+            </div>
+            <h4 class="font-semibold">Certifié RGE</h4>
+            <p class="text-sm text-gray-500 mt-2">Qualification reconnue</p>
+          </div>
+          <div>
+            <div class="icon-box mx-auto mb-4">
+              <!-- people -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16"
+                fill="currentColor">
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                </path>
+              </svg>
+            </div>
+            <h4 class="font-semibold">Équipe experte</h4>
+            <p class="text-sm text-gray-500 mt-2">Peintres qualifiés</p>
+          </div>
+          <div>
+            <div class="icon-box mx-auto mb-4">
+              <!-- clock -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#3c98e4ff]" viewBox="0 0 16 16"
+                fill="currentColor">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+              </svg>
+            </div>
+            <h4 class="font-semibold">Respect des délais</h4>
+            <p class="text-sm text-gray-500 mt-2">Ponctualité garantie</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+  <!-- قسم النص أسفل الأيقونات -->
+  <main id="services" class="max-w-7xl mx-auto px-6 py-12">
     <div class="text-left mb-10 ml-8 ">
       <h2 class="text-3xl font-bold text-[#0A3152] ml-8">Nos services professionnels</h2>
-      <p class="text-[#5C6B7A] mt-4 ml-8  mt-8 text-lg lead max-w-xl" style="color: #3e3e3e;">Découvrez notre gamme complète de services de peinture, adaptés à tous vos besoins  résidentiels et commerciaux.</p>
+      <p class="text-[#5C6B7A] mt-4 ml-8  mt-8 text-lg lead max-w-xl" style="color: #3e3e3e;">Découvrez notre gamme
+        complète de services de peinture, adaptés à tous vos besoins résidentiels et commerciaux.</p>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       <!-- card 1 -->
       <article class="card group">
         <div class="relative">
-          <div class="absolute top-4 left-4 w-10 h-10 bg-pink-500 text-white flex items-center justify-center rounded-full shadow-md">
-           <span class="material-symbols-outlined">home</span></div>
+          <div
+            class="absolute top-4 left-4 w-10 h-10 bg-pink-500 text-white flex items-center justify-center rounded-full shadow-md">
+            <span class="material-symbols-outlined">home</span>
+          </div>
           <img src="image/1.jpg" alt="Peinture intérieure" class="w-full h-52 object-cover">
         </div>
         <div class="p-6 ">
           <h3 class="card-title">Peinture intérieure</h3>
-          <p class="text-gray-600 text-sm mt-2">Transformez vos intérieurs avec nos techniques de peinture professionnelles. Murs, plafonds, boiseries – nous sublimons chaque détail.</p>
+          <p class="text-gray-600 text-sm mt-2">Transformez vos intérieurs avec nos techniques de peinture
+            professionnelles. Murs, plafonds, boiseries – nous sublimons chaque détail.</p>
           <ul class="text-sm text-gray-700 space-y-1 mt-4">
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Préparation des surfaces</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Peintures écologiques</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Finitions soignées</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Préparation des
+              surfaces</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Peintures
+              écologiques</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-pink-500 rounded-full"></span>Finitions soignées
+            </li>
           </ul>
-          <button class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition" ><a href="#process-section">En savoir plus →</a></button>
+          <button
+            class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition"><a
+              href="#process-section">En savoir plus →</a></button>
         </div>
       </article>
 
       <!-- card 2 -->
       <article class="card group">
         <div class="relative">
-          <div class="absolute top-4 left-4 w-10 h-10 bg-blue-500 text-white flex items-center justify-center rounded-full shadow-md">
-            <span class="material-symbols-outlined">blinds_closed</span></div>
+          <div
+            class="absolute top-4 left-4 w-10 h-10 bg-blue-500 text-white flex items-center justify-center rounded-full shadow-md">
+            <span class="material-symbols-outlined">blinds_closed</span>
+          </div>
           <img src="image/download.webp" alt="Peinture extérieure" class="w-full h-52 object-cover">
         </div>
         <div class="p-6">
           <h3 class="card-title ">Peinture extérieure</h3>
-          <p class="text-gray-600 text-sm mt-2">Protégez et embellissez vos façades avec nos peintures résistantes aux intempéries.</p>
+          <p class="text-gray-600 text-sm mt-2">Protégez et embellissez vos façades avec nos peintures résistantes aux
+            intempéries.</p>
           <ul class="text-sm text-gray-700 space-y-1 mt-4">
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Nettoyage haute pression</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Traitement anti-humidité</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Garantie 25 ans</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Nettoyage haute
+              pression</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Traitement
+              anti-humidité</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-blue-500 rounded-full"></span>Garantie 25 ans
+            </li>
           </ul>
-          <button class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition"><a href="#process-section">En savoir plus →</a> </button>
+          <button
+            class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition"><a
+              href="#process-section">En savoir plus →</a> </button>
         </div>
       </article>
 
       <!-- card 3 -->
       <article class="card group">
         <div class="relative">
-          <div class="absolute top-4 left-4 w-10 h-10 bg-orange-500 text-white flex items-center justify-center rounded-full shadow-md"><span class="material-symbols-outlined">palette</span></div>
+          <div
+            class="absolute top-4 left-4 w-10 h-10 bg-orange-500 text-white flex items-center justify-center rounded-full shadow-md">
+            <span class="material-symbols-outlined">palette</span>
+          </div>
           <img src="image/3.png" alt="Conseil couleurs" class="w-full h-52 object-cover">
         </div>
         <div class="p-6">
           <h3 class="card-title">Conseil couleurs</h3>
-          <p class="text-gray-600 text-sm mt-2">Bénéficiez de l’expertise de nos coloristes pour créer l’ambiance parfaite. Harmonie des couleurs et tendances actuelles.</p>
+          <p class="text-gray-600 text-sm mt-2">Bénéficiez de l’expertise de nos coloristes pour créer l’ambiance
+            parfaite. Harmonie des couleurs et tendances actuelles.</p>
           <ul class="text-sm text-gray-700 space-y-1 mt-4">
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Étude colorimétrique</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Échantillons gratuits</li>
-            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Visualisation 3D</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Étude
+              colorimétrique</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Échantillons
+              gratuits</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 bg-orange-500 rounded-full"></span>Visualisation 3D
+            </li>
           </ul>
-          <button class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition"><a href="#process-section">En savoir plus →</a></button>
+          <button
+            class="w-full mt-6 border border-gray-300 rounded-xl py-2 font-semibold text-gray-800 bg-white group-hover:bg-pink-500 group-hover:text-white transition"><a
+              href="#process-section">En savoir plus →</a></button>
         </div>
       </article>
     </div>
   </main>
 
 
- <div class="containery">
-  
+  <div class="containery">
 
-<section class="palette-section">
-  <h1 class="palette-title font-semibold text-center text-3xl  text-blue-600 dark:text-sky-700 mb-8 pt-20 ">Palettes de couleurs inspirantes</h1>
-  <p class="palette-desc base text-[#5C6B7A]  leading-relaxed max-w-2xl mx-auto text-center">
-    Explorez nos sélections de couleurs soigneusement composées pour créer l'ambiance parfaite dans votre espace.
-    Nos experts vous accompagnent dans votre choix.
-  </p>
 
-   <section class="grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 m-8">
-      <!-- Card 1 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <!-- swatches row -->
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#F5F7FA" style="background:#F5F7FA" onclick="copyHex('#F5F7FA')"></button>
-          <button class="swatch" data-hex="#E6ECF2" style="background:#E6ECF2" onclick="copyHex('#E6ECF2')"></button>
-          <button class="swatch" data-hex="#3BA4E6" style="background:#3BA4E6" onclick="copyHex('#3BA4E6')"></button>
-          <button class="swatch" data-hex="#0D3B66" style="background:#0D3B66" onclick="copyHex('#0D3B66')"></button>
-        </div>
+    <section class="palette-section">
+      <h1 class="palette-title font-semibold text-center text-3xl  text-blue-600 dark:text-sky-700 mb-8 pt-20 ">Palettes
+        de couleurs inspirantes</h1>
+      <p class="palette-desc base text-[#5C6B7A]  leading-relaxed max-w-2xl mx-auto text-center">
+        Explorez nos sélections de couleurs soigneusement composées pour créer l'ambiance parfaite dans votre espace.
+        Nos experts vous accompagnent dans votre choix.
+      </p>
 
-        <!-- body -->
-        <div class="p-5">
-          <h3 class="text-[#0A3152] font-semibold text-lg">Moderne & Épuré</h3>
-          <p class="text-gray-500 text-sm mt-1">Tons neutres et contemporains</p>
+      <section class="grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 m-8">
+        <!-- Card 1 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <!-- swatches row -->
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#F5F7FA" style="background:#F5F7FA" onclick="copyHex('#F5F7FA')"></button>
+            <button class="swatch" data-hex="#E6ECF2" style="background:#E6ECF2" onclick="copyHex('#E6ECF2')"></button>
+            <button class="swatch" data-hex="#3BA4E6" style="background:#3BA4E6" onclick="copyHex('#3BA4E6')"></button>
+            <button class="swatch" data-hex="#0D3B66" style="background:#0D3B66" onclick="copyHex('#0D3B66')"></button>
+          </div>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+          <!-- body -->
+          <div class="p-5">
+            <h3 class="text-[#0A3152] font-semibold text-lg">Moderne & Épuré</h3>
+            <p class="text-gray-500 text-sm mt-1">Tons neutres et contemporains</p>
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#F5F7FA" aria-label="#F5F7FA" onclick="copyHex('#F5F7FA')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Blanc Doux</div>
-                <div class="text-xs text-gray-400">#F5F7FA</div>
+            <hr class="my-4 border-t-[1px] border-gray-100">
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#F5F7FA" aria-label="#F5F7FA"
+                  onclick="copyHex('#F5F7FA')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Blanc Doux</div>
+                  <div class="text-xs text-gray-400">#F5F7FA</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#E6ECF2" aria-label="#E6ECF2" onclick="copyHex('#E6ECF2')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Gris Clair</div>
-                <div class="text-xs text-gray-400">#E6ECF2</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#E6ECF2" aria-label="#E6ECF2"
+                  onclick="copyHex('#E6ECF2')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Gris Clair</div>
+                  <div class="text-xs text-gray-400">#E6ECF2</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#3BA4E6" aria-label="#3BA4E6" onclick="copyHex('#3BA4E6')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Bleu Ciel</div>
-                <div class="text-xs text-gray-400">#3BA4E6</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#3BA4E6" aria-label="#3BA4E6"
+                  onclick="copyHex('#3BA4E6')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Bleu Ciel</div>
+                  <div class="text-xs text-gray-400">#3BA4E6</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#0D3B66" aria-label="#0D3B66" onclick="copyHex('#0D3B66')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Bleu Foncé</div>
-                <div class="text-xs text-gray-400">#0D3B66</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#0D3B66" aria-label="#0D3B66"
+                  onclick="copyHex('#0D3B66')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Bleu Foncé</div>
+                  <div class="text-xs text-gray-400">#0D3B66</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <!-- Card 2 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#F48C06" style="background:#F48C06" onclick="copyHex('#F48C06')"></button>
-          <button class="swatch" data-hex="#E03157" style="background:#E03157" onclick="copyHex('#E03157')"></button>
-          <button class="swatch" data-hex="#FF6B35" style="background:#FF6B35" onclick="copyHex('#FF6B35')"></button>
-          <button class="swatch" data-hex="#FFE5B4" style="background:#FFE5B4" onclick="copyHex('#FFE5B4')"></button>
-        </div>
+        <!-- Card 2 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#F48C06" style="background:#F48C06" onclick="copyHex('#F48C06')"></button>
+            <button class="swatch" data-hex="#E03157" style="background:#E03157" onclick="copyHex('#E03157')"></button>
+            <button class="swatch" data-hex="#FF6B35" style="background:#FF6B35" onclick="copyHex('#FF6B35')"></button>
+            <button class="swatch" data-hex="#FFE5B4" style="background:#FFE5B4" onclick="copyHex('#FFE5B4')"></button>
+          </div>
 
-        <div class="p-5">
-          <h3 class="text-[#c94b2e] font-semibold text-lg">Chaleur & Énergie</h3>
-          <p class="text-gray-500 text-sm mt-1">Couleurs vives et accueillantes</p>
+          <div class="p-5">
+            <h3 class="text-[#c94b2e] font-semibold text-lg">Chaleur & Énergie</h3>
+            <p class="text-gray-500 text-sm mt-1">Couleurs vives et accueillantes</p>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+            <hr class="my-4 border-t-[1px] border-gray-100">
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#F48C06" onclick="copyHex('#F48C06')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Orange Chaleur</div>
-                <div class="text-xs text-gray-400">#F48C06</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#F48C06" onclick="copyHex('#F48C06')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Orange Chaleur</div>
+                  <div class="text-xs text-gray-400">#F48C06</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#E03157" onclick="copyHex('#E03157')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Rose Corail</div>
-                <div class="text-xs text-gray-400">#E03157</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#E03157" onclick="copyHex('#E03157')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Rose Corail</div>
+                  <div class="text-xs text-gray-400">#E03157</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#FF6B35" onclick="copyHex('#FF6B35')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Mandarine</div>
-                <div class="text-xs text-gray-400">#FF6B35</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#FF6B35" onclick="copyHex('#FF6B35')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Mandarine</div>
+                  <div class="text-xs text-gray-400">#FF6B35</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#FFE5B4" onclick="copyHex('#FFE5B4')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Beige Clair</div>
-                <div class="text-xs text-gray-400">#FFE5B4</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#FFE5B4" onclick="copyHex('#FFE5B4')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Beige Clair</div>
+                  <div class="text-xs text-gray-400">#FFE5B4</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <!-- Card 3 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#6A994E" style="background:#6A994E" onclick="copyHex('#6A994E')"></button>
-          <button class="swatch" data-hex="#A7C957" style="background:#A7C957" onclick="copyHex('#A7C957')"></button>
-          <button class="swatch" data-hex="#F2E8CF" style="background:#F2E8CF" onclick="copyHex('#F2E8CF')"></button>
-          <button class="swatch" data-hex="#BC4749" style="background:#BC4749" onclick="copyHex('#BC4749')"></button>
-        </div>
+        <!-- Card 3 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#6A994E" style="background:#6A994E" onclick="copyHex('#6A994E')"></button>
+            <button class="swatch" data-hex="#A7C957" style="background:#A7C957" onclick="copyHex('#A7C957')"></button>
+            <button class="swatch" data-hex="#F2E8CF" style="background:#F2E8CF" onclick="copyHex('#F2E8CF')"></button>
+            <button class="swatch" data-hex="#BC4749" style="background:#BC4749" onclick="copyHex('#BC4749')"></button>
+          </div>
 
-        <div class="p-5">
-          <h3 class="text-[#2f7b38] font-semibold text-lg">Nature & Sérénité</h3>
-          <p class="text-gray-500 text-sm mt-1">Inspiration végétale apaisante</p>
+          <div class="p-5">
+            <h3 class="text-[#2f7b38] font-semibold text-lg">Nature & Sérénité</h3>
+            <p class="text-gray-500 text-sm mt-1">Inspiration végétale apaisante</p>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+            <hr class="my-4 border-t-[1px] border-gray-100">
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#6A994E" onclick="copyHex('#6A994E')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Vert Forêt</div>
-                <div class="text-xs text-gray-400">#6A994E</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#6A994E" onclick="copyHex('#6A994E')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Vert Forêt</div>
+                  <div class="text-xs text-gray-400">#6A994E</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#A7C957" onclick="copyHex('#A7C957')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Vert Doux</div>
-                <div class="text-xs text-gray-400">#A7C957</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#A7C957" onclick="copyHex('#A7C957')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Vert Doux</div>
+                  <div class="text-xs text-gray-400">#A7C957</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#F2E8CF" onclick="copyHex('#F2E8CF')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Crème</div>
-                <div class="text-xs text-gray-400">#F2E8CF</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#F2E8CF" onclick="copyHex('#F2E8CF')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Crème</div>
+                  <div class="text-xs text-gray-400">#F2E8CF</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#BC4749" onclick="copyHex('#BC4749')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Brique</div>
-                <div class="text-xs text-gray-400">#BC4749</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#BC4749" onclick="copyHex('#BC4749')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Brique</div>
+                  <div class="text-xs text-gray-400">#BC4749</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <!-- Card 4 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#2F3E46" style="background:#2F3E46" onclick="copyHex('#2F3E46')"></button>
-          <button class="swatch" data-hex="#354F52" style="background:#354F52" onclick="copyHex('#354F52')"></button>
-          <button class="swatch" data-hex="#52796F" style="background:#52796F" onclick="copyHex('#52796F')"></button>
-          <button class="swatch" data-hex="#CAD2C5" style="background:#CAD2C5" onclick="copyHex('#CAD2C5')"></button>
-        </div>
+        <!-- Card 4 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#2F3E46" style="background:#2F3E46" onclick="copyHex('#2F3E46')"></button>
+            <button class="swatch" data-hex="#354F52" style="background:#354F52" onclick="copyHex('#354F52')"></button>
+            <button class="swatch" data-hex="#52796F" style="background:#52796F" onclick="copyHex('#52796F')"></button>
+            <button class="swatch" data-hex="#CAD2C5" style="background:#CAD2C5" onclick="copyHex('#CAD2C5')"></button>
+          </div>
 
-        <div class="p-5">
-          <h3 class="text-[#264653] font-semibold text-lg">Élégance Classique</h3>
-          <p class="text-gray-500 text-sm mt-1">Sophistication intemporelle</p>
+          <div class="p-5">
+            <h3 class="text-[#264653] font-semibold text-lg">Élégance Classique</h3>
+            <p class="text-gray-500 text-sm mt-1">Sophistication intemporelle</p>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+            <hr class="my-4 border-t-[1px] border-gray-100">
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#2F3E46" onclick="copyHex('#2F3E46')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Ardoise</div>
-                <div class="text-xs text-gray-400">#2F3E46</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#2F3E46" onclick="copyHex('#2F3E46')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Ardoise</div>
+                  <div class="text-xs text-gray-400">#2F3E46</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#354F52" onclick="copyHex('#354F52')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Vert Profond</div>
-                <div class="text-xs text-gray-400">#354F52</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#354F52" onclick="copyHex('#354F52')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Vert Profond</div>
+                  <div class="text-xs text-gray-400">#354F52</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#52796F" onclick="copyHex('#52796F')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Sauge</div>
-                <div class="text-xs text-gray-400">#52796F</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#52796F" onclick="copyHex('#52796F')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Sauge</div>
+                  <div class="text-xs text-gray-400">#52796F</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#CAD2C5" onclick="copyHex('#CAD2C5')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Gris Vert</div>
-                <div class="text-xs text-gray-400">#CAD2C5</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#CAD2C5" onclick="copyHex('#CAD2C5')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Gris Vert</div>
+                  <div class="text-xs text-gray-400">#CAD2C5</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <!-- Card 5 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#264653" style="background:#264653" onclick="copyHex('#264653')"></button>
-          <button class="swatch" data-hex="#2A9D8F" style="background:#2A9D8F" onclick="copyHex('#2A9D8F')"></button>
-          <button class="swatch" data-hex="#E9C46A" style="background:#E9C46A" onclick="copyHex('#E9C46A')"></button>
-          <button class="swatch" data-hex="#F4A261" style="background:#F4A261" onclick="copyHex('#F4A261')"></button>
-        </div>
+        <!-- Card 5 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#264653" style="background:#264653" onclick="copyHex('#264653')"></button>
+            <button class="swatch" data-hex="#2A9D8F" style="background:#2A9D8F" onclick="copyHex('#2A9D8F')"></button>
+            <button class="swatch" data-hex="#E9C46A" style="background:#E9C46A" onclick="copyHex('#E9C46A')"></button>
+            <button class="swatch" data-hex="#F4A261" style="background:#F4A261" onclick="copyHex('#F4A261')"></button>
+          </div>
 
-        <div class="p-5">
-          <h3 class="text-[#264653] font-semibold text-lg">Tendance Industrielle</h3>
-          <p class="text-gray-500 text-sm mt-1">Style urbain et caractère</p>
+          <div class="p-5">
+            <h3 class="text-[#264653] font-semibold text-lg">Tendance Industrielle</h3>
+            <p class="text-gray-500 text-sm mt-1">Style urbain et caractère</p>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+            <hr class="my-4 border-t-[1px] border-gray-100">
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#264653" onclick="copyHex('#264653')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Bleu Foncé</div>
-                <div class="text-xs text-gray-400">#264653</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#264653" onclick="copyHex('#264653')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Bleu Foncé</div>
+                  <div class="text-xs text-gray-400">#264653</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#2A9D8F" onclick="copyHex('#2A9D8F')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Turquoise</div>
-                <div class="text-xs text-gray-400">#2A9D8F</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#2A9D8F" onclick="copyHex('#2A9D8F')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Turquoise</div>
+                  <div class="text-xs text-gray-400">#2A9D8F</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#E9C46A" onclick="copyHex('#E9C46A')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Jaune Sable</div>
-                <div class="text-xs text-gray-400">#E9C46A</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#E9C46A" onclick="copyHex('#E9C46A')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Jaune Sable</div>
+                  <div class="text-xs text-gray-400">#E9C46A</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#F4A261" onclick="copyHex('#F4A261')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Orange Doux</div>
-                <div class="text-xs text-gray-400">#F4A261</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#F4A261" onclick="copyHex('#F4A261')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Orange Doux</div>
+                  <div class="text-xs text-gray-400">#F4A261</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <!-- Card 6 -->
-      <article class="bg-white rounded-2xl shadow-md overflow-hidden">
-        <div class="grid grid-cols-4 h-28">
-          <button class="swatch" data-hex="#FEFEFE" style="background:#FEFEFE" onclick="copyHex('#FEFEFE')"></button>
-          <button class="swatch" data-hex="#F8F9FA" style="background:#F8F9FA" onclick="copyHex('#F8F9FA')"></button>
-          <button class="swatch" data-hex="#E9ECEF" style="background:#E9ECEF" onclick="copyHex('#E9ECEF')"></button>
-          <button class="swatch" data-hex="#6C757D" style="background:#6C757D" onclick="copyHex('#6C757D')"></button>
-        </div>
+        <!-- Card 6 -->
+        <article class="bg-white rounded-2xl shadow-md overflow-hidden">
+          <div class="grid grid-cols-4 h-28">
+            <button class="swatch" data-hex="#FEFEFE" style="background:#FEFEFE" onclick="copyHex('#FEFEFE')"></button>
+            <button class="swatch" data-hex="#F8F9FA" style="background:#F8F9FA" onclick="copyHex('#F8F9FA')"></button>
+            <button class="swatch" data-hex="#E9ECEF" style="background:#E9ECEF" onclick="copyHex('#E9ECEF')"></button>
+            <button class="swatch" data-hex="#6C757D" style="background:#6C757D" onclick="copyHex('#6C757D')"></button>
+          </div>
 
-        <div class="p-5">
-          <h3 class="text-[#0A3152] font-semibold text-lg">Douceur Scandinave</h3>
-          <p class="text-gray-500 text-sm mt-1">Minimalisme nordique</p>
+          <div class="p-5">
+            <h3 class="text-[#0A3152] font-semibold text-lg">Douceur Scandinave</h3>
+            <p class="text-gray-500 text-sm mt-1">Minimalisme nordique</p>
 
-          <hr class="my-4 border-t-[1px] border-gray-100">
+            <hr class="my-4 border-t-[1px] border-gray-100">
 
-          <div class="grid grid-cols-2 gap-3">
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#FEFEFE" onclick="copyHex('#FEFEFE')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Blanc Pur</div>
-                <div class="text-xs text-gray-400">#FEFEFE</div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#FEFEFE" onclick="copyHex('#FEFEFE')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Blanc Pur</div>
+                  <div class="text-xs text-gray-400">#FEFEFE</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#F8F9FA" onclick="copyHex('#F8F9FA')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Gris Très Clair</div>
-                <div class="text-xs text-gray-400">#F8F9FA</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#F8F9FA" onclick="copyHex('#F8F9FA')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Gris Très Clair</div>
+                  <div class="text-xs text-gray-400">#F8F9FA</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#E9ECEF" onclick="copyHex('#E9ECEF')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Brume</div>
-                <div class="text-xs text-gray-400">#E9ECEF</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#E9ECEF" onclick="copyHex('#E9ECEF')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Brume</div>
+                  <div class="text-xs text-gray-400">#E9ECEF</div>
+                </div>
               </div>
-            </div>
 
-            <div class="flex items-center gap-3">
-              <button class="w-4 h-4 rounded-full" style="background:#6C757D" onclick="copyHex('#6C757D')"></button>
-              <div>
-                <div class="text-sm font-medium text-gray-700">Gris Ardoise</div>
-                <div class="text-xs text-gray-400">#6C757D</div>
+              <div class="flex items-center gap-3">
+                <button class="w-4 h-4 rounded-full" style="background:#6C757D" onclick="copyHex('#6C757D')"></button>
+                <div>
+                  <div class="text-sm font-medium text-gray-700">Gris Ardoise</div>
+                  <div class="text-xs text-gray-400">#6C757D</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </article>
-     
-    </section>
+        </article>
+
+      </section>
 
       <div class="text-center mt-20 pb-20">
         <p>Besoin d'aide pour choisir ? Nos coloristes vous conseillent gratuitement.</p>
-        <button id="freeColorBtn" class="btn-color mt-4 px-6 py-2 bg-[#e43c5c] text-white rounded-full">Conseil Couleurs Gratuit</button>
+        <button id="freeColorBtn" class="btn-color mt-4 px-6 py-2 bg-[#e43c5c] text-white rounded-full">Conseil Couleurs
+          Gratuit</button>
       </div>
-</section>
+    </section>
 
   </div>
 
-   <div class="containerr m-20 mx-auto px-4 py-12">
-        <div class="headerr">
-            <h1 class="text-[#0A3152] font-semibold text-4xl mb-2"> Nos réalisations avant/après</h1>
-            <p class="text-gray-500 text-lg mt-6"> Découvrez la transformation spectaculaire de nos projets. Faites glisser le curseur pour voir la <br> différence.</p>
-        </div>
-        
-        <div class="carousell">
-            <div class="slidess">
-                
-                <!-- ====== SLIDE 1 ====== -->
-                <div class="cardss active">
-                    <div class="comparison-containerr">
-                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1558&q=80" alt=" AVANT" class="image-before">
-                        <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1770&q=80" alt=" APRÈS " class="image-after">
-                        <div class="slider"><div class="slider-handlered"></div></div>
-                        <div class="labels">
-                            <span class="label">AVANT</span>
-                            <span class="label">APRÈS</span>
-                        </div>
-                    </div>
-                    <div class="cardss-info">
-                        <h3> Rénovation salon moderne </h3>
-                        <span>Saint Julien en genevois</span>
-                        <p>Transformation complète avec des couleurs apaisantes et modernes. Nouvelle disposition pour améliorer l'espace et la lumière.</p>
-                    </div>
-                </div>
-
-                <!-- ====== SLIDE 2 ====== -->
-                <div class="cardss">
-                    <div class="comparison-containerr">
-                        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80" alt=" AVANT" class="image-before">
-                        <img src="image/image2.jpg" alt=" APRÈS" class="image-after">
-                        <div class="slider"><div class="slider-handlered"></div></div>
-                        <div class="labels">
-                            <span class="label">AVANT</span>
-                            <span class="label">APRÈS</span>
-                        </div>
-                    </div>
-                    <div class="cardss-info">
-                        <h3>Façade maison traditionnelle</h3>
-                        <span>Versailles</span>
-                        <p>Ravalement complet avec protection anti-humidité et finitions soignées</p>
-                    </div>
-                </div>
-
-                <!-- ====== SLIDE 3 ====== -->
-                <div class="cardss">
-                    <div class="comparison-containerr">
-                        <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80" alt=" AVANT" class="image-before">
-                        <img src="image/2dom.png" alt=" APRÈS" class="image-after">
-                        <div class="slider"><div class="slider-handlered"></div></div>
-                        <div class="labels">
-                            <span class="label">AVANT</span>
-                            <span class="label">APRÈS</span>
-                        </div>
-                    </div>
-                    <div class="cardss-info">
-                        <h3>Chambre parentale cocooning</h3>
-                        <span>Neuilly-sur-Seine</span>
-                        <p>Ambiance douce et épurée avec des teintes naturelles. Aménagement sur mesure pour optimiser le rangement.</p>
-                    </div>
-                </div>
-
-           
-                
-
-             
-            </div>
-
-            <!-- Conteneur de navigation avec boutons et points -->
-            <div class="navigation-containerr">
-                <!-- Bouton précédent -->
-                <button class="nav-btnred prev">&#10094;</button>
-                
-                <!-- Points de navigation -->
-                <div class="nav-dots">
-                    <div class="dot active"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div>
-                
-                <!-- Bouton suivant -->
-                <button class="nav-btnred next">&#10095;</button>
-            </div>
-        </div>
+  <div class="containerr m-20 mx-auto px-4 py-12">
+    <div class="headerr">
+      <h1 class="text-[#0A3152] font-semibold text-4xl mb-2"> Nos réalisations avant/après</h1>
+      <p class="text-gray-500 text-lg mt-6"> Découvrez la transformation spectaculaire de nos projets. Faites glisser le
+        curseur pour voir la <br> différence.</p>
     </div>
+
+    <div class="carousell">
+      <div class="slidess">
+
+        <!-- ====== SLIDE 1 ====== -->
+        <div class="cardss active">
+          <div class="comparison-containerr">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1558&q=80"
+              alt=" AVANT" class="image-before">
+            <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1770&q=80"
+              alt=" APRÈS " class="image-after">
+            <div class="slider">
+              <div class="slider-handlered"></div>
+            </div>
+            <div class="labels">
+              <span class="label">AVANT</span>
+              <span class="label">APRÈS</span>
+            </div>
+          </div>
+          <div class="cardss-info">
+            <h3> Rénovation salon moderne </h3>
+            <span>Saint Julien en genevois</span>
+            <p>Transformation complète avec des couleurs apaisantes et modernes. Nouvelle disposition pour améliorer
+              l'espace et la lumière.</p>
+          </div>
+        </div>
+
+        <!-- ====== SLIDE 2 ====== -->
+        <div class="cardss">
+          <div class="comparison-containerr">
+            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80"
+              alt=" AVANT" class="image-before">
+            <img src="image/image2.jpg" alt=" APRÈS" class="image-after">
+            <div class="slider">
+              <div class="slider-handlered"></div>
+            </div>
+            <div class="labels">
+              <span class="label">AVANT</span>
+              <span class="label">APRÈS</span>
+            </div>
+          </div>
+          <div class="cardss-info">
+            <h3>Façade maison traditionnelle</h3>
+            <span>Versailles</span>
+            <p>Ravalement complet avec protection anti-humidité et finitions soignées</p>
+          </div>
+        </div>
+
+        <!-- ====== SLIDE 3 ====== -->
+        <div class="cardss">
+          <div class="comparison-containerr">
+            <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80"
+              alt=" AVANT" class="image-before">
+            <img src="image/2dom.png" alt=" APRÈS" class="image-after">
+            <div class="slider">
+              <div class="slider-handlered"></div>
+            </div>
+            <div class="labels">
+              <span class="label">AVANT</span>
+              <span class="label">APRÈS</span>
+            </div>
+          </div>
+          <div class="cardss-info">
+            <h3>Chambre parentale cocooning</h3>
+            <span>Neuilly-sur-Seine</span>
+            <p>Ambiance douce et épurée avec des teintes naturelles. Aménagement sur mesure pour optimiser le rangement.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+      <!-- Conteneur de navigation avec boutons et points -->
+      <div class="navigation-containerr">
+        <!-- Bouton précédent -->
+        <button class="nav-btnred prev">&#10094;</button>
+
+        <!-- Points de navigation -->
+        <div class="nav-dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+
+        <!-- Bouton suivant -->
+        <button class="nav-btnred next">&#10095;</button>
+      </div>
+    </div>
+  </div>
 
   <section id="Portfolio" class="section-valeurs">
     <h2 style="font-size: 2rem;">Nos valeurs fondamentales</h2>
     <p class="subtitle text-lg mb-12">
-      Depuis plus de 25 ans, nous nous appuyons sur des valeurs solides qui guident 
+      Depuis plus de 25 ans, nous nous appuyons sur des valeurs solides qui guident
       <br>
       <strong class="subtitle">chacune de nos réalisations et font notre réputation.</strong>
     </p>
-   
+
 
     <div class="valeurs-container">
       <div class="valeur">
         <div class="valeur-icon">
           <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e3e3e3">
-          <path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+            <path
+              d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+          </svg>
         </div>
         <h3 class="h3-valeur">Passion du métier</h3>
-        <p>Chaque projet est une œuvre d’art. Nous mettons tout notre savoir-faire et notre passion au service de vos espaces.</p>
+        <p>Chaque projet est une œuvre d’art. Nous mettons tout notre savoir-faire et notre passion au service de vos
+          espaces.</p>
         <div class="tag">25 + années d’expertise</div>
       </div>
 
       <div class="valeur">
         <div class="valeur-icon">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#ffff]" viewBox="0 0 16 16" fill="currentColor">
-                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
-  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
-            </svg> 
+            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+          </svg>
         </div>
         <h3 class="h3-valeur">Fiabilité absolue</h3>
         <p>Respect des délais, qualité constante et engagement total. Notre réputation repose sur la confiance.</p>
@@ -698,21 +772,23 @@
 
       <div class="valeur">
         <div class="valeur-icon">
-           <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9  text-[#ffff]" viewBox="0 0 64 64" fill="none">
-              <circle cx="32" cy="18" r="12" stroke="#ffff" stroke-width="3"></circle>
-              <path d="M24 30 L40 30 L40 44 L32 40 L24 44 Z" stroke="#ffff" stroke-width="3" fill="none"></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9  text-[#ffff]" viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="18" r="12" stroke="#ffff" stroke-width="3"></circle>
+            <path d="M24 30 L40 30 L40 44 L32 40 L24 44 Z" stroke="#ffff" stroke-width="3" fill="none"></path>
+          </svg>
         </div>
         <h3 class="h3-valeur">Excellence technique</h3>
         <p>Matériaux premium et finitions impeccables. Nous ne transigeons jamais sur la qualité de nos prestations.</p>
-        <div class="tag" >Certifié RGE Qualibat</div>
+        <div class="tag">Certifié RGE Qualibat</div>
       </div>
 
       <div class="valeur">
         <div class="valeur-icon">
-           <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#ffff]" viewBox="0 0 16 16" fill="currentColor">
-                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-9 h-9 text-[#ffff]" viewBox="0 0 16 16" fill="currentColor">
+            <path
+              d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+            </path>
+          </svg>
         </div>
         <h3 class="h3-valeur">Satisfaction client</h3>
         <p>Votre bonheur fait notre fierté. Accompagnement personnalisé et service après-vente exceptionnel.</p>
@@ -728,199 +804,310 @@
   </section>
 
 
-<section class="process-section" id="process-section">
-  <h2 style="font-weight: bold;">Notre processus en 5 étapes</h2>
-  <p class="process-subtitle" style="font-weight:lighter;">
-    De la première prise de contact à la livraison finale, découvrez notre méthode éprouvée pour mener à bien votre projet.
-  </p>
+  <section class="process-section" id="process-section">
+    <h2 style="font-weight: bold;">Notre processus en 5 étapes</h2>
+    <p class="process-subtitle" style="font-weight:lighter;">
+      De la première prise de contact à la livraison finale, découvrez notre méthode éprouvée pour mener à bien votre
+      projet.
+    </p>
 
-  <div class="process-container">
-    <div class="process-card">
-      <div class="process-number red">01</div>
-      <div class="process-icon ">
-             <center>
-         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#E03157" class="bi bi-telephone" viewBox="0 0 16 16">
-         <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-          </svg>
-        </center>
+    <div class="process-container">
+      <div class="process-card">
+        <div class="process-number red">01</div>
+        <div class="process-icon ">
+          <center>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#E03157" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+            </svg>
+          </center>
+        </div>
+        <h3>Premier contact</h3>
+        <p>Échangeons sur votre projet, vos besoins et vos attentes. Visite gratuite à domicile pour évaluer les
+          travaux.</p>
+        <div class="process-badge pink">24h</div>
       </div>
-      <h3>Premier contact</h3>
-      <p>Échangeons sur votre projet, vos besoins et vos attentes. Visite gratuite à domicile pour évaluer les travaux.</p>
-      <div class="process-badge pink">24h</div>
-    </div>
 
-    <div class="connector"></div>
+      <div class="connector"></div>
 
-    <div class="process-card">
-      <div class="process-number orange">02</div>
-      <div class="process-icon ">
-        <center>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" height="45px" width="45px" fill="#F5A623">
-            
-            <path d="M192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 128C512 92.7 483.3 64 448 64L192 64zM224 128L416 128C433.7 128 448 142.3 448 160L448 192C448 209.7 433.7 224 416 224L224 224C206.3 224 192 209.7 192 192L192 160C192 142.3 206.3 128 224 128zM240 296C240 309.3 229.3 320 216 320C202.7 320 192 309.3 192 296C192 282.7 202.7 272 216 272C229.3 272 240 282.7 240 296zM320 320C306.7 320 296 309.3 296 296C296 282.7 306.7 272 320 272C333.3 272 344 282.7 344 296C344 309.3 333.3 320 320 320zM448 296C448 309.3 437.3 320 424 320C410.7 320 400 309.3 400 296C400 282.7 410.7 272 424 272C437.3 272 448 282.7 448 296zM216 416C202.7 416 192 405.3 192 392C192 378.7 202.7 368 216 368C229.3 368 240 378.7 240 392C240 405.3 229.3 416 216 416zM344 392C344 405.3 333.3 416 320 416C306.7 416 296 405.3 296 392C296 378.7 306.7 368 320 368C333.3 368 344 378.7 344 392zM424 416C410.7 416 400 405.3 400 392C400 378.7 410.7 368 424 368C437.3 368 448 378.7 448 392C448 405.3 437.3 416 424 416zM192 488C192 474.7 202.7 464 216 464L328 464C341.3 464 352 474.7 352 488C352 501.3 341.3 512 328 512L216 512C202.7 512 192 501.3 192 488zM424 464C437.3 464 448 474.7 448 488C448 501.3 437.3 512 424 512C410.7 512 400 501.3 400 488C400 474.7 410.7 464 424 464z"/>
-          </svg>
-        </center>
+      <div class="process-card">
+        <div class="process-number orange">02</div>
+        <div class="process-icon ">
+          <center>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" height="45px" width="45px" fill="#F5A623">
+
+              <path
+                d="M192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 128C512 92.7 483.3 64 448 64L192 64zM224 128L416 128C433.7 128 448 142.3 448 160L448 192C448 209.7 433.7 224 416 224L224 224C206.3 224 192 209.7 192 192L192 160C192 142.3 206.3 128 224 128zM240 296C240 309.3 229.3 320 216 320C202.7 320 192 309.3 192 296C192 282.7 202.7 272 216 272C229.3 272 240 282.7 240 296zM320 320C306.7 320 296 309.3 296 296C296 282.7 306.7 272 320 272C333.3 272 344 282.7 344 296C344 309.3 333.3 320 320 320zM448 296C448 309.3 437.3 320 424 320C410.7 320 400 309.3 400 296C400 282.7 410.7 272 424 272C437.3 272 448 282.7 448 296zM216 416C202.7 416 192 405.3 192 392C192 378.7 202.7 368 216 368C229.3 368 240 378.7 240 392C240 405.3 229.3 416 216 416zM344 392C344 405.3 333.3 416 320 416C306.7 416 296 405.3 296 392C296 378.7 306.7 368 320 368C333.3 368 344 378.7 344 392zM424 416C410.7 416 400 405.3 400 392C400 378.7 410.7 368 424 368C437.3 368 448 378.7 448 392C448 405.3 437.3 416 424 416zM192 488C192 474.7 202.7 464 216 464L328 464C341.3 464 352 474.7 352 488C352 501.3 341.3 512 328 512L216 512C202.7 512 192 501.3 192 488zM424 464C437.3 464 448 474.7 448 488C448 501.3 437.3 512 424 512C410.7 512 400 501.3 400 488C400 474.7 410.7 464 424 464z" />
+            </svg>
+          </center>
+        </div>
+        <h3>Devis détaillé</h3>
+        <p>Analyse complète des surfaces, choix des matériaux et établissement d’un devis transparent sans surprise.</p>
+        <div class="process-badge yellow">48h</div>
       </div>
-      <h3>Devis détaillé</h3>
-      <p>Analyse complète des surfaces, choix des matériaux et établissement d’un devis transparent sans surprise.</p>
-      <div class="process-badge yellow">48h</div>
-    </div>
 
-    <div class="connector"></div>
+      <div class="connector"></div>
 
-    <div class="process-card">
-      <div class="process-number blue">03</div>
-      <div class="process-icon ">
-        <center>
-        <svg  xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#3BA4E6">
-          <path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 32.5-156t88-127Q256-817 330-848.5T488-880q80 0 151 27.5t124.5 76q53.5 48.5 85 115T880-518q0 115-70 176.5T640-280h-74q-9 0-12.5 5t-3.5 11q0 12 15 34.5t15 51.5q0 50-27.5 74T480-80Zm0-400Zm-220 40q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm120-160q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm200 0q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm120 160q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17ZM480-160q9 0 14.5-5t5.5-13q0-14-15-33t-15-57q0-42 29-67t71-25h70q66 0 113-38.5T800-518q0-121-92.5-201.5T488-800q-136 0-232 93t-96 227q0 133 93.5 226.5T480-160Z"/></svg>
-        </center>
+      <div class="process-card">
+        <div class="process-number blue">03</div>
+        <div class="process-icon ">
+          <center>
+            <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#3BA4E6">
+              <path
+                d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 32.5-156t88-127Q256-817 330-848.5T488-880q80 0 151 27.5t124.5 76q53.5 48.5 85 115T880-518q0 115-70 176.5T640-280h-74q-9 0-12.5 5t-3.5 11q0 12 15 34.5t15 51.5q0 50-27.5 74T480-80Zm0-400Zm-220 40q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm120-160q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm200 0q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm120 160q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17ZM480-160q9 0 14.5-5t5.5-13q0-14-15-33t-15-57q0-42 29-67t71-25h70q66 0 113-38.5T800-518q0-121-92.5-201.5T488-800q-136 0-232 93t-96 227q0 133 93.5 226.5T480-160Z" />
+            </svg>
+          </center>
+        </div>
+        <h3>Conseil couleurs</h3>
+        <p>Notre coloriste vous accompagne dans le choix des teintes. Échantillons et visualisation 3D de votre projet.
+        </p>
+        <div class="process-badge light-blue">1 semaine</div>
       </div>
-      <h3>Conseil couleurs</h3>
-      <p>Notre coloriste vous accompagne dans le choix des teintes. Échantillons et visualisation 3D de votre projet.</p>
-      <div class="process-badge light-blue">1 semaine</div>
-    </div>
 
-    <div class="connector"></div>
+      <div class="connector"></div>
 
-    <div class="process-card">
-      <div class="process-number dark-blue">04</div>
-      <div class="process-icon ">
-        <center>
-        <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#0D3B66" >
-          <path d="M240-120q-45 0-89-22t-71-58q26 0 53-20.5t27-59.5q0-50 35-85t85-35q50 0 85 35t35 85q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T320-280q0-17-11.5-28.5T280-320q-17 0-28.5 11.5T240-280q0 23-5.5 42T220-202q5 2 10 2h10Zm230-160L360-470l358-358q11-11 27.5-11.5T774-828l54 54q12 12 12 28t-12 28L470-360Zm-190 80Z"/></svg>
-        </center>
+      <div class="process-card">
+        <div class="process-number dark-blue">04</div>
+        <div class="process-icon ">
+          <center>
+            <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill="#0D3B66">
+              <path
+                d="M240-120q-45 0-89-22t-71-58q26 0 53-20.5t27-59.5q0-50 35-85t85-35q50 0 85 35t35 85q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T320-280q0-17-11.5-28.5T280-320q-17 0-28.5 11.5T240-280q0 23-5.5 42T220-202q5 2 10 2h10Zm230-160L360-470l358-358q11-11 27.5-11.5T774-828l54 54q12 12 12 28t-12 28L470-360Zm-190 80Z" />
+            </svg>
+          </center>
+        </div>
+        <h3>Réalisation</h3>
+        <p>Préparation soignée des surfaces, protection du mobilier et application des peintures par notre équipe
+          experte.</p>
+        <div class="process-badge gray">Planning convenu</div>
       </div>
-      <h3>Réalisation</h3>
-      <p>Préparation soignée des surfaces, protection du mobilier et application des peintures par notre équipe experte.</p>
-      <div class="process-badge gray">Planning convenu</div>
-    </div>
 
-    <div class="connector"></div>
+      <div class="connector"></div>
 
-    <div class="process-card">
-      <div class="process-number red">05</div>
-      <div class="process-icon"> <center>
-        <svg  xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill=" #E03157">
-          <path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z"/></svg>
-      </div>
-      <h3>Finalisation</h3>
-      <p>Contrôle qualité, nettoyage complet et remise des clés. Garantie de satisfaction et suivi après travaux.</p>
-      <div class="process-badge pink">J+1</div>
-    </div>
-  </div>
-
- <section class="cta-section">
-  <h1>Simple, transparent, efficace</h1>
-  <p>Notre processus éprouvé garantit la réussite de votre projet dans les délais impartis, avec la qualité que vous méritez.</p>
-  <div class="cta-buttons">
-    <button class="btn-primary">Commencer maintenant</button>
-    <button class="btn-outline">Télécharger notre guide</button>
-  </div>
-</section>
-
-
-
-
-
-
-
-</section>
-
-   <!-- clients -->
-<section class="client" id="À propos">
-<section class="tm-section">
-  <h2>Ce que disent nos clients</h2>
-  <p class="tm-subtitle">Leur satisfaction fait notre fierté. Découvrez leurs témoignages.</p>
-
-  <div class="tm-slider">
-    <!-- Témoignage 1 -->
-    <div class="tm-card tm-active">
-      <div class="tm-stars">
-        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-      </div>
-      <p class="tm-quote">
-        Nous avions un budget limité et un planning serré, et il a su se montrer à l’écoute, flexible et très professionnel. Le résultat est remarquable : la peinture de notre chambre correspond exactement à ce que nous avions imaginé. Nous sommes      </p>
-      <div class="tm-client">
-        <div class="tm-initials">Mh</div>
-        <div class="tm-name" ><a href="https://maps.app.goo.gl/pcAR3cL34a5eE62X6">Maha Rhandi</a> </div>
-        <div class="tm-city">Saint-Julien-en-Genevois 7ème</div>
-        <div class="tm-project">Rénovation appartement 120m²</div>
+      <div class="process-card">
+        <div class="process-number red">05</div>
+        <div class="process-icon">
+          <center>
+            <svg xmlns="http://www.w3.org/2000/svg" height="45px" viewBox="0 -960 960 960" width="45px" fill=" #E03157">
+              <path
+                d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q65 0 123 19t107 53l-58 59q-38-24-81-37.5T480-800q-133 0-226.5 93.5T160-480q0 133 93.5 226.5T480-160q133 0 226.5-93.5T800-480q0-18-2-36t-6-35l65-65q11 32 17 66t6 70q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-56-216L254-466l56-56 114 114 400-401 56 56-456 457Z" />
+            </svg>
+        </div>
+        <h3>Finalisation</h3>
+        <p>Contrôle qualité, nettoyage complet et remise des clés. Garantie de satisfaction et suivi après travaux.</p>
+        <div class="process-badge pink">J+1</div>
       </div>
     </div>
 
-    <!-- Témoignage 2 -->
-    <div class="tm-card">
-      <div class="tm-stars">
-        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+    <section class="cta-section">
+      <h1>Simple, transparent, efficace</h1>
+      <p>Notre processus éprouvé garantit la réussite de votre projet dans les délais impartis, avec la qualité que vous
+        méritez.</p>
+      <div class="cta-buttons">
+        <button class="btn-primary">Commencer maintenant</button>
+        <button class="btn-outline">Télécharger notre guide</button>
       </div>
-      <p class="tm-quote">
-          
-Super boulot! Rien à redire. Le travail correspond parfaitement à nos attentes. Et les prix sont très correct. Merci AdamPeinture.
-      </p>
-      <div class="tm-client">
-        <div class="tm-initials">MO</div>
-        <div class="tm-name"> <a href="https://maps.app.goo.gl/ALhvfUTxpUEeRvZ79">Moha</a></div>
-        <div class="tm-city">Versailles</div>
-        <div class="tm-project">Ravalement façade maison</div>
-      </div>
-    </div>
+    </section>
 
-    <!-- Témoignage 3 -->
-    <div class="tm-card">
-      <div class="tm-stars">
-        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-      </div>
-      <p class="tm-quote">
-          
-       J’ai fait appel à Mohamed pour des travaux de peinture dans un studio et je suis très satisfait du résultat. Travail soigné, finitions impeccables et beaucoup de professionnalisme. Mohamed est ponctuel, sérieux et à l’écoute, il a su donner de très bons conseils et a respecté les délais. Je recommande vivement ses services !
-      </p>
-      <div class="tm-client">
-        <div class="tm-initials">Si</div>
-        <div class="tm-name"><a href="https://maps.app.goo.gl/RLe2A7tfo3qWiyNm6">Sirrine Talbi</a></div>
-        <div class="tm-city">Viry</div>
-        <div class="tm-project">Peinture cuisine et salle de bains</div>
-      </div>
-    </div>
-  </div>
 
-  <div class="tm-arrows">
-    <div class="tm-arrow" id="tm-prevo"><i class="fa fa-chevron-left"></i></div>
-    <div class="tm-arrow" id="tm-nexti"><i class="fa fa-chevron-right"></i></div>
-  </div>
 
-  <div class="tm-nav">
-    <button class="tm-dot tm-active"></button>
-    <button class="tm-dot"></button>
-    <button class="tm-dot"></button>
-  </div>
-</section>
-<section class="stats-section">
-    <div class="stat">
+
+
+
+
+  </section>
+
+  <!-- clients -->
+  <section class="client" id="À propos">
+    <section class="tm-section">
+      <h2>Ce que disent nos clients</h2>
+      <p class="tm-subtitle">Leur satisfaction fait notre fierté. Découvrez leurs témoignages.</p>
+
+      <div class="tm-slider">
+        <!-- Témoignage 1 -->
+        <div class="tm-card tm-active">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+            Nous avions un budget limité et un planning serré, et il a su se montrer à l’écoute, flexible et très
+            professionnel. Le résultat est remarquable : la peinture de notre chambre correspond exactement à ce que
+            nous avions imaginé. Nous sommes </p>
+          <div class="tm-client">
+            <div class="tm-initials">Mh</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/pcAR3cL34a5eE62X6">Maha Rhandi</a> </div>
+            <div class="tm-city">Saint-Julien-en-Genevois 7ème</div>
+            <div class="tm-project">Rénovation appartement 120m²</div>
+          </div>
+        </div>
+
+        <!-- Témoignage 2 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+
+            Super boulot! Rien à redire. Le travail correspond parfaitement à nos attentes. Et les prix sont très
+            correct. Merci AdamPeinture.
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">MO</div>
+            <div class="tm-name"> <a href="https://maps.app.goo.gl/ALhvfUTxpUEeRvZ79">Moha</a></div>
+            <div class="tm-city">Versailles</div>
+            <div class="tm-project">Ravalement façade maison</div>
+          </div>
+        </div>
+
+        <!-- Témoignage 3 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+
+            J’ai fait appel à Mohamed pour des travaux de peinture dans un studio et je suis très satisfait du résultat.
+            Travail soigné, finitions impeccables et beaucoup de professionnalisme. Mohamed est ponctuel, sérieux et à
+            l’écoute, il a su donner de très bons conseils et a respecté les délais. Je recommande vivement ses services
+            !
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">Si</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/RLe2A7tfo3qWiyNm6">Sirrine Talbi</a></div>
+            <div class="tm-city">Viry</div>
+            <div class="tm-project">Peinture cuisine et salle de bains</div>
+          </div>
+        </div>
+
+
+        <!-- Témoignage 4 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+            Un grand merci à Adam Peinture 74 pour le travail impeccable, réalisé dans les délais et avec une grande
+            précision.
+            C’est déjà la deuxième fois que nous faisons appel à lui, et nous sommes toujours aussi satisfaits.
+            La pose du papier peint a été effectuée d’une main de maître. Adam Peinture 74 est très disponible, fiable
+            et
+            digne de confiance.
+            Nous ne pouvons que le recommander à 100 % !
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">Ni</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/wJNvVziFwHnzkchx8">Nils MEGUEDDEM</a></div>
+            <div class="tm-city">Saint-Julien-en-Genevois</div>
+            <div class="tm-project">Peinture cuisine et salle de bains</div>
+          </div>
+        </div>
+
+        <!-- Témoignage 5 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+            Au top !
+            Mohamed et son équipe ont fait du très bon travail dans notre nouvel appartement.
+            Le rendu est comme on l’imaginait !
+            Très bonne communication, facilité d’échange et écoute.
+            Tarif très avantageux pour la région.
+            Je recommande vivement !
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">Mo</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/kXCZTFyi2R96Xe3H6">Maxime CARLOMAGNO</a></div>
+            <div class="tm-city">L'Aire</div>
+            <div class="tm-project">Peinture cuisine et salle de bains</div>
+          </div>
+        </div>
+
+        <!-- Témoignage 6 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+            Merci à Mohamed et son équipe pour la réalisation des peintures de notre habitation. Travail d’excellente
+            qualité, respect des délais, très bon rapport qualité prix et bonne écoute de nos envies. Entreprise à
+            recommander sans hésitation. Nous n’hésiterons pas à refaire appel à cette entreprise.
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">Sy</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/VqpVDiPmdSdSWP3V8">Sylvie Gillioz-Hottelier</a></div>
+            <div class="tm-city">Crache</div>
+            <div class="tm-project">Peinture cuisine et salle de bains</div>
+          </div>
+        </div>
+
+        <!-- Témoignage 7 -->
+        <div class="tm-card">
+          <div class="tm-stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+              class="fa fa-star"></i>
+          </div>
+          <p class="tm-quote">
+            Je suis extrêmement satisfaite du travail accompli par cette entreprise. Effectue un travail impeccable et
+            achève dans les délais impartis. En prenant en compte nos désirs. Je recommande vivement cette entreprise.
+          </p>
+          <div class="tm-client">
+            <div class="tm-initials">Wd</div>
+            <div class="tm-name"><a href="https://maps.app.goo.gl/kx6BnoXxfxs1Dg4i8">Wdi Wardi</a></div>
+            <div class="tm-city">Thairy</div>
+            <div class="tm-project">Peinture cuisine et salle de bains</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-arrows">
+        <div class="tm-arrow" id="tm-prevo"><i class="fa fa-chevron-left"></i></div>
+        <div class="tm-arrow" id="tm-nexti"><i class="fa fa-chevron-right"></i></div>
+      </div>
+
+      <div class="tm-nav">
+        <button class="tm-dot tm-active"></button>
+        <button class="tm-dot"></button>
+        <button class="tm-dot"></button>
+        <button class="tm-dot"></button>
+        <button class="tm-dot"></button>
+        <button class="tm-dot"></button>
+        <button class="tm-dot"></button>
+      </div>
+    </section>
+    <section class="stats-section">
+      <div class="stat">
         <h3 style="color: #E03157;">500+</h3>
-        <p >Clients satisfaits</p>
-    </div>
-    <div class="stat">
-        <h3 style="color: #F48c3c;">4.9/5</h3>
+        <p>Clients satisfaits</p>
+      </div>
+      <div class="stat">
+        <h3 style="color: #F48c3c;">5/5</h3>
         <p>Note moyenne</p>
-    </div>
-    <div class="stat">
+      </div>
+      <div class="stat">
         <h3 style="color: #3BA4E6;">98%</h3>
         <p>Taux de recommandation</p>
-    </div>
-    <div class="stat">
+      </div>
+      <div class="stat">
         <h3 style="color: #0D3B66">15+</h3>
         <p>Années d'expérience</p>
-    </div>
-</section>
-</section>
+      </div>
+    </section>
+  </section>
 
-<section class="contact-footer" id="Contact">
+  <section class="contact-footer" id="Contact">
     <div class="container">
       <div class="footer-left">
         <h2>Prêt à donner vie à votre projet ?</h2>
         <p>Contactez-nous dès aujourd'hui pour un devis gratuit et personnalisé.<br>
-           Notre équipe vous accompagne de A à Z dans votre transformation.</p>
+          Notre équipe vous accompagne de A à Z dans votre transformation.</p>
         <button class="btn">Devis gratuit</button>
       </div>
 
@@ -945,7 +1132,9 @@ Super boulot! Rien à redire. Le travail correspond parfaitement à nos attentes
           <i class="fas fa-map-marker-alt"></i>
           <div>
             <h4>Adresse</h4>
-            <p><a href="https://maps.app.goo.gl/UmVfF9u9Y1WHv1628"></a> 39 Route De Thairy, 74160 Saint Julien En Genevois</p>
+            <p><a href="https://maps.app.goo.gl/UmVfF9u9Y1WHv1628"></a> 39 Route De Thairy, 74160 Saint Julien
+              En
+              Genevois</p>
           </div>
         </div>
 
@@ -982,77 +1171,82 @@ Super boulot! Rien à redire. Le travail correspond parfaitement à nos attentes
   </section>
 
   <!-- Footer -->
-   <div class="footer-spacer">
-  <footer class="footer">
-    <div class="footer-container">
-      <!-- Colonne 1 -->
-      <div class="footer-column">
-        <img  src="img/logo.png"  alt="Logo Adam Peinture" class="footer-logo" />
-        <p class="footer-description">
-          Votre expert en peinture depuis plus de 15 ans.De l'intérieur à l'extérieur, nous donnons vie à vos espaces avec passion,expertise et un savoir-faire reconnu.
-        </p>
-        <ul class="footer-certifications">
-          <li><i class="fas fa-circle"></i> Certifié RGE Qualibat</li>
-          <li><i class="fas fa-circle"></i> Assurance décennale</li>
-          <li><i class="fas fa-circle"></i> Garantie 25 ans</li>
-        </ul>
-      </div>
+  <div class="footer-spacer">
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Colonne 1 -->
+        <div class="footer-column">
+          <img src="img/logo.png" alt="Logo Adam Peinture" class="footer-logo" />
+          <p class="footer-description">
+            Votre expert en peinture depuis plus de 15 ans.De l'intérieur à l'extérieur, nous donnons vie à vos
+            espaces
+            avec passion,expertise et un savoir-faire reconnu.
+          </p>
+          <ul class="footer-certifications">
+            <li><i class="fas fa-circle"></i> Certifié RGE Qualibat</li>
+            <li><i class="fas fa-circle"></i> Assurance décennale</li>
+            <li><i class="fas fa-circle"></i> Garantie 25 ans</li>
+          </ul>
+        </div>
 
-      <!-- Colonne 2 -->
-      <div class="footer-column">
-        <h4>Nos services</h4>
-        <ul>
-          <li>Peinture intérieure</li>
-          <li>Peinture extérieure</li>
-          <li>Ravalement de façade</li>
-          <li>Conseil couleurs</li>
-          <li>Papier peint</li>
-          <li>Enduits décoratifs</li>
-        </ul>
-      </div>
+        <!-- Colonne 2 -->
+        <div class="footer-column">
+          <h4>Nos services</h4>
+          <ul>
+            <li>Peinture intérieure</li>
+            <li>Peinture extérieure</li>
+            <li>Ravalement de façade</li>
+            <li>Conseil couleurs</li>
+            <li>Papier peint</li>
+            <li>Enduits décoratifs</li>
+          </ul>
+        </div>
 
-      <!-- Colonne 3 -->
-      <div class="footer-column">
-        <h4>Zones d'intervention</h4>
-        <ul>
-          <li>Saint Julien en genevois-France</li>
-          <li>Hauts-savoie (92)</li>
-          <li>Viry (78)</li>
-          <li>Nangy (94)</li>
-          <li>Thonon-les-bains (93)</li>
-        </ul>
-      </div>
+        <!-- Colonne 3 -->
+        <div class="footer-column">
+          <h4>Zones d'intervention</h4>
+          <ul>
+            <li>Saint Julien en genevois-France</li>
+            <li>Hauts-savoie (92)</li>
+            <li>Viry (78)</li>
+            <li>Nangy (94)</li>
+            <li>Thonon-les-bains (93)</li>
+          </ul>
+        </div>
 
-      <!-- Colonne 4 -->
-      <div class="footer-column">
-        <h4>Contact</h4>
-        <ul class="contact-info">
-          
+        <!-- Colonne 4 -->
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul class="contact-info">
 
-          <li><i class= "fas fa-map-marker-alt"></i>Adresse 39 Route De Thairy <br>74160 Saint Julien En Genevois, France</li>
-          <li class="fasn"><i class="  fas fa-phone"></i> +33 664 930 591</li>
-          <li class="fasn"><i class="  fas fa-envelope"></i> contact@adampeinture74.com</li>
-          <li><i class="far fa-clock"></i> Lundi - Vendredi : 8h - 18h<br>Samedi : 9h - 17h</li>
-        </ul>
 
-        <h5>Suivez-nous</h5>
-        <div class="social-icons">
-          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          
+            <li><i class="fas fa-map-marker-alt"></i>Adresse 39 Route De Thairy <br>74160 Saint Julien En
+              Genevois,
+              France</li>
+            <li class="fasn"><i class="  fas fa-phone"></i> +33 664 930 591</li>
+            <li class="fasn"><i class="  fas fa-envelope"></i> contact@adampeinture74.com</li>
+            <li><i class="far fa-clock"></i> Lundi - Vendredi : 8h - 18h<br>Samedi : 9h - 17h</li>
+          </ul>
+
+          <h5>Suivez-nous</h5>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+          </div>
         </div>
       </div>
-    </div>
 
-    <hr />
+      <hr />
 
-    <div class="footer-bottom">
-      <p >© 2024 Adam Peinture. Tous droits réservés. | Mentions légales | Politique de confidentialité | CGV</p>
-      
-    </div>
-  </footer>
-</div>
+      <div class="footer-bottom">
+        <p>© 2024 Adam Peinture. Tous droits réservés. | Mentions légales | Politique de confidentialité | CGV
+        </p>
+
+      </div>
+    </footer>
+  </div>
   <!-- Script -->
   <script src="js.js"></script>
 
